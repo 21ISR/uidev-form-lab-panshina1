@@ -9,7 +9,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
 }
 .pickmi {
     background: white;
@@ -27,12 +26,10 @@ body {
 .pickmi-header h1 {
     font-size: 32px;
     color: white;
-    line-height: 1.8;
 }
 .pickmi-header p {
     font-size: 14px;
     color: white;
-    line-height: 2;
 }
 .form {
     padding: 20px;
@@ -42,6 +39,7 @@ body {
     gap: 8px;
     display: flex;
     flex-direction: column;
+    line-height: 1.8;
 }
 .mono label {
     color: rgb(100, 100, 100);
